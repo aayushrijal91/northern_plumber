@@ -76,7 +76,7 @@
                         </svg>
                         <span class="hidden md:block">Book Online</span>
                     </a>
-                    <a href="tel:<?= $phone_number ?>" class="w-fit hidden md:flex items-center rounded-lg leading-none shadow-md bg-secondary text-white font-bold h-[53px] px-7">Call Us Today</a>
+                    <a href="tel:<?= $phone_number ?>" class="w-fit hidden md:flex items-center rounded-lg leading-none shadow-md bg-secondary text-white font-bold h-[53px] px-7">Call <?= $phone_number ?></a>
                 </div>
             </div>
         </div>
@@ -99,7 +99,7 @@
 
             <div class="w-fit flex flex-wrap gap-3 mt-10 md:mt-20">
                 <a href="#form" class="w-fit flex items-center rounded-lg leading-none shadow-md bg-green text-white font-bold h-[53px] px-7">Book Online</a>
-                <a href="tel:<?= $phone_number ?>" class="w-fit flex items-center rounded-lg leading-none shadow-md bg-secondary text-white font-bold h-[53px] px-7">Call Us Today</a>
+                <a href="tel:<?= $phone_number ?>" class="w-fit flex items-center rounded-lg leading-none shadow-md bg-secondary text-white font-bold h-[53px] px-7">Call <?= $phone_number ?></a>
             </div>
         </div>
     </div>
@@ -375,7 +375,7 @@
 
     <div class="flex flex-wrap justify-center items-center gap-y-16 relative mt-14 md:mt-32 lg:-mx-3">
         <div class="hidden md:block absolute bg-red text-white font-bold text-lg leading-none px-7 py-5 -top-16 lg:left-10 xl:-left-28 -rotate-[20deg] z-50">
-            unlike the previes hover animation, this box<br />
+            unlike the previous hover animation, this box<br />
             stays to get attention to book or call
         </div>
 
