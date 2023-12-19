@@ -31,7 +31,7 @@
 						<p class="font-extrabold text-xl text-white relative">Open now</p>
 					</div>
 
-					<p class="text-center w-full md:w-fit text-light text-lg">Servicing All of South Melbourne</p>
+					<p class="text-center w-full md:w-fit text-light text-lg">Servicing All of North Melbourne</p>
 				</div>
 			</div>
 		</div>
